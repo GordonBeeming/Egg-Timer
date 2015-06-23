@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="EggTimer.Gordon Beeming.b5214f7c-5200-419f-b06e-bec607e038d5" Version="1.0" Language="en-US" Publisher="Gordon Beeming" />
+    <DisplayName>Egg Timer</DisplayName>
+    <Description xml:space="preserve">People have various ways to shut out the world when they need to concentrate. This extension is just another one of those ways. Instead of closing everything to stop notifications why not just stop notifications. The extension aims to help you quickly slip into a "leave me alone" mode and letting others know without taking you out the zone to do it manually.</Description>
+    <License>LICENSE.txt</License>
+    <Icon>icon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+</PackageManifest>
