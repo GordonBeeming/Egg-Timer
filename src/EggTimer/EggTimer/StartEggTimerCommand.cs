@@ -95,7 +95,7 @@ namespace EggTimer
 
                 var updateInfo = new List<KeyValuePair<PublishableContactInformationType, object>>();
                 updateInfo.Add(new KeyValuePair<PublishableContactInformationType, object>(PublishableContactInformationType.Availability, Microsoft.Lync.Controls.ContactAvailability.DoNotDisturb));
-                updateInfo.Add(new KeyValuePair<PublishableContactInformationType, object>(PublishableContactInformationType.PersonalNote, $"Taking some quiet time starting at '{DateTime.UtcNow.ToString()}' UTC."));
+                updateInfo.Add(new KeyValuePair<PublishableContactInformationType, object>(PublishableContactInformationType.PersonalNote, $"Taking some quiet time starting at '{DateTime.UtcNow.ToString()}' UTC.{Environment.NewLine}{Environment.NewLine}Powered By: Visual Studio Egg Timer"));
                 client.Self.BeginPublishContactInformation(updateInfo, (ar) => { client.Self.EndPublishContactInformation(ar); }, null);
             }
             catch (ClientNotFoundException)

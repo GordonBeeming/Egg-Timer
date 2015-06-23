@@ -1,0 +1,5 @@
+﻿# Version 1.0
+
+Very basic functionality. You are basically just able to start and stop a egg timer (which at the moment isn't a time =P) but what this does is switch Lync to Do not disturb and then back to Free on stopping it.
+
+More release notes can be seen on the project page out on GitHub - https://github.com/Gordon-Beeming/Egg-Timer.
