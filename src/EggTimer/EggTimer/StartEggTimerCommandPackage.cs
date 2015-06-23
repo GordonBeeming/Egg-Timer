@@ -61,6 +61,7 @@ namespace EggTimer
         /// </summary>
         protected override void Initialize()
         {
+            StopEggTimerCommand.Initialize(this);
             StartEggTimerCommand.Initialize(this);
             base.Initialize();
         }

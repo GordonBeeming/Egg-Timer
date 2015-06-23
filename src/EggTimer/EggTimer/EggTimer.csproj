@@ -55,6 +55,7 @@
     <Compile Include="StartEggTimerCommand.cs" />
     <Compile Include="StartEggTimerCommandPackage.cs" />
     <Compile Include="StartEggTimerCommandPackageGuids.cs" />
+    <Compile Include="StopEggTimerCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
@@ -74,8 +75,10 @@
     </Content>
     <Content Include="Resources\StartEggTimerCommand.png" />
     <Content Include="Resources\StartEggTimerCommandPackage.ico" />
+    <Content Include="Resources\StopEggTimerCommand.png" />
     <VSCTCompile Include="StartEggTimerCommandPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
+      <SubType>Designer</SubType>
     </VSCTCompile>
   </ItemGroup>
   <ItemGroup>
