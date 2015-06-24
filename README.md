@@ -32,4 +32,12 @@ Stopping the timer switches your status back to Free and clears the personal mes
 
 #### Pro Tip
 
-This extension works nicely if you attach keyboard shortcuts to it =). In my environment I have *Ctrl+Alt+Num +* assigned to Starting and *Ctrl+Alt+Num -* assigned to Stopping.
+This extension works nicely if you attach keyboard shortcuts to it =). In my environment I have *Ctrl+Alt+Num +* assigned to Starting 
+
+![Start Egg Timer](images/0004.png)
+
+and *Ctrl+Alt+Num -* assigned to Stopping
+
+![Start Egg Timer](images/0005.png)
+
+**Enjoy!**
