@@ -29,3 +29,7 @@ Starting the timer switches your status to Do not Disturb and sets your personal
 Stopping the timer switches your status back to Free and clears the personal message
 
 ![Start Egg Timer](images/0003.png)
+
+#### Pro Tip
+
+This extension works nicely if you attach keyboard shortcuts to it =). In my environment I have *Ctrl+Alt+Num +* assigned to Starting and *Ctrl+Alt+Num -* assigned to Stopping.
